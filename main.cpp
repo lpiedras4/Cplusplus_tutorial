@@ -1,10 +1,8 @@
 #include <iostream>
 using namespace std;
 int main() {
-	int a = 0;
-	do {
-		cout << a << endl;
-		a++;
-	} while (a < 5);
+	for (int i = 0; i < 10; i++) {
+		cout << i << endl;
+	}
 	return 0;
 }
